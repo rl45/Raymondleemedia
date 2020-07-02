@@ -745,30 +745,19 @@
                 <h2 class="featured alt">Let's Talk?</h2>
             </div>
 
-            <form action="https://formspree.io/mvowwppa" method="POST"  id="leverage-form" class="multi-step-form">
+            <!-- modify this form HTML and place wherever you want your form -->
 
-                <fieldset class="step-group">
-                    <div class="row">
-                        <div class="col-12 input-group p-0">
-                            <input type="text" name="name" data-minlength="3"
-                                class="form-control field-name" placeholder="Name">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 input-group p-0">
-                            <input type="email" name="email" data-minlength="3"
-                                class="form-control field-email" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 input-group p-0">
-                            <input type="text" name="phone" data-minlength="3"
-                                class="form-control field-phone" placeholder="Phone">
-                        </div>
-                    </div>
-                </fieldset>
-
-                <div class="row">
+            <form action="https://formspree.io/mvowwppa" method="POST">
+                <label>
+                    Your name:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    Your email:
+                    <input type="text" name="_replyto">
+                </label>
+                <label>
+                    Your budget:
                     <div class="col-12 input-group p-0">
                         <i class="icon-arrow-down"></i>
                         <select name="budget" data-minlength="1" class="form-control field-budget">
@@ -779,30 +768,21 @@
                             <option>$10,000+</option>
                         </select>
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 input-group p-0">
-                        <input type="text" name="company" data-minlength="3"
-                            class="form-control field-company" placeholder="Company">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 input-group p-0">
-                        <textarea name="message" data-minlength="3"
-                            class="form-control field-message" placeholder="Message"
-                            required></textarea>
-                    </div>
-                </div>
+                    <label>
+                        Your message:
+                        <textarea name="message"></textarea>
+                    </label>
+                </label>
+                
 
                 <!-- your other form fields go here -->
 
-                <div class="col-12 input-group p-0">
-                    <button type="submit" class="step-next btn primary-button">SUBMIT<i class="icon-arrow-right-circle left"></i></button>
-                </div>
+                <button type="submit">Send</button>
+                <button type="submit" class="step-next btn primary-button">SUBMIT<i
+                    class="icon-arrow-right-circle left"></i></button>
             </form>
 
+         
         </div>
     </section>
 
