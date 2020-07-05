@@ -512,7 +512,7 @@ section.section-5  { background-color: var(--section-5-bg-color);  background-im
 section.section-6  { background-color: var(--section-6-bg-color);  background-image: var(--section-6-bg-image); }
 section.section-7  { background-color: var(--section-7-bg-color);  background-image: var(--section-7-bg-image); }
 section.section-8  { background-color: var(--section-8-bg-color);  background-image: var(--section-8-bg-image); }
-section.section-9  { background-color: white;  background-image: var(--section-9-bg-image); }
+section.section-9  { background-color: var(--section-9-bg-color);  background-image: var(--section-9-bg-image); }
 section.section-10 { background-color: var(--section-10-bg-color); background-image: var(--section-10-bg-image); }
 section.section-11 { background-color: var(--section-11-bg-color); background-image: var(--section-11-bg-image); }
 section.section-12 { background-color: var(--section-12-bg-color); background-image: var(--section-12-bg-image); }
