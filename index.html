@@ -45,6 +45,12 @@
     <link rel="stylesheet" href="assets/css/theme-green.css">
 
     <!-- ==============================================
+        Popup
+        =============================================== -->
+    <script src="popup.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- ==============================================
         Theme Settings
         =============================================== -->
     <style>
@@ -81,6 +87,27 @@
 </head>
 
 <body>
+
+    <!-- Email Popup -->
+    <div id="news-signup">
+        <div class="wrapper">
+          <div id="news-signup_close"></div>
+          <div class="newsletter-content" id="phplistsubscriberesult">
+            <h2>Marketing Tips, Campaign Analysis. Delivered weekly.</h2>
+    
+            <p>Join our list of readers who get our content first.</p>
+            <form class="signup-form" id="signup-form">
+              <p>
+                <input type="text" name="email" id="news_signup_email" value="" autofocus>
+              </p>
+              <p class="button">
+                <input type="submit" value="Subscribe">
+              </p>
+            </form>
+            <p class="footnote">Give it a try. It only takes a click to unsubscribe.</p>
+          </div>
+        </div>
+      </div>
 
     <!-- Header -->
     <header id="header" class="odd">
@@ -166,9 +193,10 @@
                     <div class="slide-content row">
                         <div class="col-12 d-flex inner">
                             <div class="left align-self-center text-center text-md-left">
-                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">I BUILD
-                                    CAMPAIGNS FOR BUSINESS OWNERS.</h1>
-                                <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Welcome. I'm a Freelance Digital Marketer based in Alameda, CA. I design, code, and film for businesses based on a deep understanding of customer needs.</p>
+                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">WELCOME.
+                                    MY NAME IS RAYMOND LEE.</h1>
+                                <p data-aos="zoom-out-up" data-aos-delay="800" class="description">I'm a Freelance Digital Marketer based in Alameda, CA. I help business owners connect with their clients with innovative designs, flawless coding and captivating videos.
+                                </p>
                                 <a href="#about" data-aos="zoom-out-up" data-aos-delay="1200"
                                     class="smooth-anchor ml-auto mr-auto ml-md-0 mt-4 btn dark-button"><i
                                         class="icon-cup"></i>GET STARTED</a>
@@ -222,7 +250,7 @@
                     <div class="row intro">
                         <div class="col-12 p-0">
                             <h2 class="featured alt">About Me</h2>
-                            <p>With both of my parents as immigrants, and small business owners, I saw the importance of work-ethic from an early age. However, despite their hard-work ethic, some days they wouldn’t even make a profit. This began my interest in business development and digital marketing. </br><br />With their strong work ethic developed in me, I got accepted to UC Santa Cruz for a Computer Science degree. During my sophomore year, I accepted a marketing internship at a nearby startup. <br /><br />I quickly realized that I wanted a larger impact and to work directly with clients. At this point, Im wondering what kind of work should I do? <br /><br />Through my self analysis, I found a reoccurring event that resonated with me the most: Nike commercials. <br /><br />These campaigns inspired me to train everyday. Whether I was building on my foundational skills, or improving my fitness, I focused on growth. </br><br />So with this motivation to re-create the feeling I had growing up, I cold called and emailed hundreds of local businesses for three months. Restaurants. Agencies. Artists. Any business I could help. <br /><br />And that’s where the story began…</p>
+                            <p>As the son of two immigrant parents, I learned the importance of work-ethic from an early age. With their strong hard-working mentality engrained in me, I graduated from UC Santa Cruz with a Computer Science degree and started at a marketing internship at a nearby startup. </br><br />I quickly realized I wanted to make a larger impact with my career and also wanted to work directly with clients. So, I set out on my own.  <br /><br />As I started out, the foundation of my style and philosophies was rooted in marketing material that made one of biggest impacts on me as a person: Nike commercials.  <br /><br />These campaigns inspired me to train every day. Whether I was building on my foundational skills, or improving my fitness, I focused on growth.  <br /><br />Since launching my own business, I’ve been able to work with multiple companies to help them connect with their clients and customers through successful digital marketing campaigns.  I look forward to helping your business as well. </p>
                         </div>
                     </div>
 
@@ -269,7 +297,7 @@
             <div class="row text-center intro">
                 <div class="col-12">
                     <h2>Highlight Reel</h2>
-                    <p class="text-max-800">Compilation of clips from campaigns for my amazing clients</p>
+                    <p class="text-max-800">A few clips from some of my client’s campaigns.</p>
                 </div>
             </div>
             <div class="row text-center">
@@ -329,7 +357,7 @@
             <div class="row intro">
                 <div class="col-12 col-md-9 align-self-center text-center text-md-left">
                     <h2 class="featured">Services</h2>
-                    <p>Digital Marketing Services Focused On Increasing Leads, Sales, & Revenue</p>
+                    <p>I help clients increase leads, sales and revenue.</p>
                 </div>
                 <div class="col-12 col-md-3 align-self-end">
                     <a href="#contact" class="btn mx-auto mr-md-0 ml-md-auto primary-button smooth-anchor"><i
@@ -341,7 +369,7 @@
                     <div class="card featured">
                         <i class="icon icon-layers"></i>
                         <h4>Web Development</h4>
-                        <p>Your website is an important factor in a buyer's journey as well as a first impression. Optimize your website's SEO, design, landing-page, and workflow to improve brand awareness and increase leads. </p>
+                        <p>Your website is often the first stop on a buyer's journey for your products or services. Optimize your website's SEO, design, landing-page, and workflow to improve brand awareness and increase leads. </p>
                         <a href="#contact" class="smooth-anchor"><i class="btn-icon icon-arrow-right-circle"></i></a>
                     </div>
                 </div>
@@ -349,7 +377,7 @@
                     <div class="card">
                         <i class="icon icon-rocket"></i>
                         <h4>Video Advertising</h4>
-                        <p>Video campaigns through different channels to ensure your message gets delivered to the targeted audience which includes interest, demographic and location data</p>
+                        <p>I help you create video campaigns through different channels to ensure your message is delivered to a strategically targeted audience which includes interest, demographic and location data.</p>
                         <a href="#contact" class="smooth-anchor"><i class="btn-icon icon-arrow-right-circle"></i></a>
                     </div>
                 </div>
@@ -357,7 +385,8 @@
                     <div class="card featured">
                         <i class="icon icon-drawer"></i>
                         <h4>Creative Branding</h4>
-                        <p>A strong and cohesive brand strategy can help convey your company’s quality, credibility,value, and experience. Companies with strong branding hold a large competitive advantage when selling their products or services.</p>
+                        <p>A strong and cohesive brand strategy can help convey your company’s quality, credibility, value, and experience. I’ll help you achieve a competitive advantage when selling your products or services.
+                        </p>
                         <a href="#contact" class="smooth-anchor"><i class="btn-icon icon-arrow-right-circle"></i></a>
                     </div>
                 </div>
@@ -390,8 +419,8 @@
             <div class="row text-center intro">
                 <div class="col-12">
                     <h2>Plans and Pricing</h2>
-                    <p class="text-max-800">Looking to get started to optimize your website, improve your brand
-                        presence, and PPC?</p>
+                    <p class="text-max-800">Pick a plan that’s right for you or contact me for a custom quote.
+                    </p>
                 </div>
             </div>
             <div class="row justify-content-center text-center items">
@@ -498,7 +527,8 @@
             <div class="row intro">
                 <div class="col-12 col-md-9 align-self-center text-center text-md-left">
                     <h2 class="featured">Our Portfolio</h2>
-                    <p>Selected campaigns with different initiatives</p>
+                    <p>Explore some of my previous work.
+                    </p>
                 </div>
                 <div class="col-12 col-md-3 align-self-end">
                     <a href="#contact" class="btn mx-auto mr-md-0 ml-md-auto primary-button smooth-anchor"><i
@@ -722,7 +752,7 @@
         <div class="container">
 
             <div class="step-title">
-                <h2 class="featured alt">Let's Talk?</h2>
+                <h2 class="featured alt">Let's Talk.</h2>
             </div>
 
             <!-- modify this form HTML and place wherever you want your form -->
